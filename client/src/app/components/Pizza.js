@@ -82,7 +82,7 @@ const Pizza = ({ pizza }) => {
           style={modalStyles}
           onRequestClose={closeModal}
           contentLabel='Pizza Modal'
-          className='bg-white w-full h-full lg:max-w-[900px] lg:max-h-[600px] lg:rounded-[30px] lg:fixed lg:top-[50%] lg:left-[50%] lg:translate-x-[-50%] lg: translate-y-[-50%] outline-none'
+          className='bg-white w-full h-full lg:max-w-[900px] lg:max-h-[600px] lg:rounded-[30px] lg:fixed lg:top-[50%] lg:left-[50%] lg:translate-x-[-50%] lg:translate-y-[-50%] outline-none'
         >
           {/* close modal icon */}
           <div 
