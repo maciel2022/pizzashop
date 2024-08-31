@@ -80,7 +80,7 @@ const CartBottom = () => {
                 className="text-4xl text-orange"
               />
             </div>
-            <CheckoutDetails />
+            <CheckoutDetails setModal={setModal} />
           </Modal>
         )
       }
